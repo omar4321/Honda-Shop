@@ -4,9 +4,404 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>honda-cbr-bootstrap</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- style-bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <!-- font-aewesome -->
+    <script
+      src="https://kit.fontawesome.com/75b7c2c28a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>hello bd</h1>
+    <!-- header-area -->
+    <header class="bg-color h-100">
+      <section class="container">
+        <!-- nav-ara -->
+        <nav class="navbar navbar-expand-lg navbar-light nav-area">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Honda</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Contact </a>
+                </li>
+              </ul>
+              <button class="btn btn bg-danger text-light rounded-2">
+                login
+              </button>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- end-nav -->
+      <!-- hero-area -->
+      <section class="container mt-5">
+        <div class="row">
+          <div class="col text-light mt-5 mb-5">
+            <p>
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1>Honda CBR 300R</h1>
+            <p class="w-50">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5
+                      class="modal-title text-primary"
+                      id="staticBackdropLabel"
+                    >
+                      Shop now
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body text-warning">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Understood
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <img class="img-fluid" src="./images/header-bike.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- end-hero -->
+    </header>
+    <main>
+      <!-- Fetured Bikes -->
+      <section class="container mt-5">
+        <h1 class="text-center m-5">Fetured Bikes 2021</h1>
+
+        <div
+          class="
+            d-flex
+            flex-sm-column flex-lg-row flex-md-column
+            justify-content-between
+          "
+        >
+          <div class="grayscale">
+            <img src="./images/feature-bike.png" alt="" />
+          </div>
+          <div class="">
+            <img src="./images/feature-bike.png" alt="" />
+          </div>
+          <div class="grayscale">
+            <img src="./images/feature-bike.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- latest News -->
+
+      <section class="container">
+        <h1 class="text-center m-5">Latest News</h1>
+        <div class="d-flex justify-content-around">
+          <div class="card" style="width: 18rem">
+            <img src="./images/bike-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="./images/bike-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Motorcycles & Scooters</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="./images/bike-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">2021 Honda CBR500R</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end-news -->
+      <!-- Clients -->
+      <section class="container m-5">
+        <h1 class="text-center fs-1 our-color">
+          <span class="text-warning">Happy</span>
+          <span class="text-info">Clients says</span>
+        </h1>
+        <div class="d-flex justify-content-around m-5">
+          <div class="card text-center m-5" style="width: 18rem">
+            <img
+              src="./images/user-1.png"
+              class="m-auto my-5"
+              width="149"
+              height="149"
+              alt="..."
+            />
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>Regina Miles</p>
+            <span>Banker</span>
+          </div>
+          <div class="card text-center m-5" style="width: 18rem">
+            <img
+              src="./images/user-2.png"
+              class="m-auto my-5"
+              width="149"
+              height="149"
+              alt="..."
+            />
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>Regina Miles</p>
+            <span>Banker</span>
+          </div>
+          <div class="card text-center m-5" style="width: 18rem">
+            <img
+              src="./images/cover.png"
+              class="m-auto my-5"
+              width="149"
+              height="149"
+              alt="..."
+            />
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>Regina Miles</p>
+            <span>Banker</span>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+      <!-- Frequently Asked Questions -->
+      <section>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Collapsible Group Item #1
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee
+                    nulla assumenda shoreditch et. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim
+                    aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Collapsible Group Item #2
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee
+                    nulla assumenda shoreditch et. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim
+                    aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Collapsible Group Item #3
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                    sunt aliqua put a bird on it squid single-origin coffee
+                    nulla assumenda shoreditch et. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                    Leggings occaecat craft beer farm-to-table, raw denim
+                    aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- js -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

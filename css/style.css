@@ -1,0 +1,45 @@
+.bg-color {
+  background-color: #264653;
+}
+
+.left-side p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.left-side h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+.nav-area ul li {
+  margin-right: 30px;
+}
+.nav-area ul li a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.nav-area ul li a:hover {
+  color: antiquewhite;
+}
+
+.our-logo nav a {
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grayscale img {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.grayscale img:hover {
+  filter: grayscale(0) !important;
+}
+.star .fa-star {
+  color: #e77c40;
+}
