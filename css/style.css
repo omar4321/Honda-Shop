@@ -1,7 +1,10 @@
 .bg-color {
   background-color: #264653;
 }
-
+.our-btn {
+  background-color: #d3360f !important;
+  color: #fff;
+}
 .left-side p {
   font-family: Poppins;
   font-style: normal;
@@ -18,22 +21,7 @@ h1 {
   line-height: 72px;
   text-transform: capitalize;
 }
-.nav-area ul li {
-  margin-right: 30px;
-}
-.nav-area ul li {
-  color: #ffffff;
-  font-size: 18px;
-}
 
-.nav-area ul li a:hover {
-  color: antiquewhite;
-}
-
-.our-logo nav a {
-  color: #ffffff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .grayscale img {
   cursor: pointer;
   filter: grayscale(100%);
